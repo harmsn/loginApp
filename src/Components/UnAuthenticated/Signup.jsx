@@ -4,7 +4,6 @@ import { patternPhone } from '../Utils/Validations'
 import { Form, Button} from 'antd'
 import AuthService from '../Services/login'
 import { useLocation,useNavigate,Navigate } from "react-router-dom"
-import 'antd/dist/antd.css'
 import { connect } from 'react-redux'
 import { addProfile } from '../Store/Actions'
 import { error,success } from '../Utils/CommonFunctions'
